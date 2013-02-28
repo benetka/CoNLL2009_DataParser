@@ -84,6 +84,10 @@ public class Argument {
 	public Predicate getPredicate() {
 		return predicate;
 	}
+	
+	public String getPredicateString() {
+		return predicate.getPredWord().getForm();
+	}		
 
 	public void setPredicate(Predicate predicate) {
 		this.predicate = predicate;
