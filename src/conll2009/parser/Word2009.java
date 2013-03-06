@@ -384,6 +384,10 @@ public class Word2009 implements IWord {
 	public String[] getArgsArray(){
 		return argsArray;
 	}
+
+	public int maxNumberOfArgs(){
+	  return ARG_COLUMNS;
+	}	
 	
 	public int getFormatColumns() {
 		return COLUMNS;
